@@ -56,7 +56,7 @@ int main() {
    servo.period_ms(20);
 
 
-   int i = -150;
+   int i = 0;
 
    while (i <= 150) {
 

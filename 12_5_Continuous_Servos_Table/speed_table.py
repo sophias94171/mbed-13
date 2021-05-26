@@ -7,7 +7,7 @@ import serial
 
 Ts = 30;   # signal interval
 
-end = 300; # signal end point
+end = 150; # signal end point
 
 n = int(end/Ts)+1;
 

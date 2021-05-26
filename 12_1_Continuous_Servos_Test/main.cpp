@@ -26,11 +26,11 @@ int main() {
 
    while(1) {
 
-      servo_control(100);
+      servo_control(200);
 
       ThisThread::sleep_for(2000ms);
 
-      servo_control(-100);
+      servo_control(-200);
 
       ThisThread::sleep_for(2000ms);
 
